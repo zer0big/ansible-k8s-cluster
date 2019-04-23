@@ -40,7 +40,7 @@ echo -e "Copy K8S Master kube config to local"
 echo -e "=================================================================================================================================="
  
 mkdir ~/.kube
-scp k8s-master-gcp:/etc/kubernetes/admin.conf ~/.kube/config
+scp k8s-master-az:/etc/kubernetes/admin.conf ~/.kube/config
  
 sleep 3
  

@@ -1,5 +1,5 @@
-master ansible_host=10.0.7.4 ansible_user=root
+master ansible_host=10.0.2.4 ansible_user=root
  
 [workers]
-worker1 ansible_host=10.0.7.5 ansible_user=root
-worker2 ansible_host=10.0.7.6 ansible_user=root
+worker1 ansible_host=10.0.2.5 ansible_user=root
+worker2 ansible_host=10.0.2.6 ansible_user=root
